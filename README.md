@@ -43,3 +43,26 @@
                 }]
             }).then(m => console.log(m.data))
 ```
+
+## 2. vue 生命周期图示
+
+> vue 生命周期阶段:
+> beforeCreate, created, beforeMount, mouted, beforeUpdate, updated, beforeDestory, destoryed
+> vue 2.x 生命周期示意图:
+![vue生命周期](http://cn.vuejs.org/images/lifecycle.png)
+
+## 3. npm 常用命令
+
+``` javascript
+    npm install xxx 安装模块
+
+    npm install xxx -g 将模块安装到全局环境中 
+
+    npm ls 查看安装的模块及依赖
+
+    npm ls -g 查看全局安装的模块及依赖
+
+    npm uninstall xxx  (-g) 卸载模块
+
+    npm cache clean 清理缓存
+```
